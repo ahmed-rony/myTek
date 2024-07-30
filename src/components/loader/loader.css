@@ -1,0 +1,14 @@
+.loader {
+  width: 23px;
+  height: 23px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  animation: 0.4s spin linear infinite;
+}
+
+@keyframes spin {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}

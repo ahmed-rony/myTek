@@ -1,0 +1,42 @@
+
+
+
+#board-1-component {
+ width: 90%;
+ margin: auto;
+ margin-top: 7em;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ gap: 1em;
+}
+#board1-sec1 {
+ flex: 2;
+}
+#board1-sec2 {
+ flex: 8;
+}
+#board1-sec3 {
+ flex: 5;
+}
+
+
+@media (min-width: 760px) {
+#board-1-component {
+ margin-top: 7em;
+ flex-direction: row;
+ width: 94%;
+}
+}
+
+@media (min-width: 1380px) {
+#board-1-component {
+ margin-top: 7em;
+ flex-direction: row;
+ width: 89%;
+}
+#board1-sec1, #board1-sec2 , #board1-sec3{
+ padding-left: 0.1em;
+ padding-right: 0.1em;
+}
+}

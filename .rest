@@ -1,0 +1,65 @@
+
+# POST https://cors-proxy-lgy8.onrender.com/?url=https://bbp.api.rentmanager.com/Authentication/AuthorizeUser
+# Content-Type: application/json
+
+# {
+#  "username": "API",
+#  "password": "Bushburg-AP1"
+# }
+
+# GET https://cors-proxy-lgy8.onrender.com/?url=https://bbp.api.rentmanager.com/Reports/17/RunReport?parameters=StartDate,2024-04-1;HISTCATEGORYIDS,5&GetOptions=ReturnJSONStream
+# Content-Type: application/json
+# X-RM12Api-ApiToken: owIuACm48kWeBSVwBPARSVwwdMSB2NnPQrDq0b5L0mx46ia2NxQ3zOyMvE8r9ryeDdd7B4E-oAP0JtUJ_AU5tvfHICJV66En57oi0lrSDts=
+
+
+# {
+#   "Grid1": [
+#     {
+#       "AccountsName": "Serious Dirt Botanics, Inc.",
+#       "AccountsAccountID": 4096,
+#       "SubEntitiesName": "<Multi>",
+#       "Hyperlink": "",
+#       "CustomersIsProspect": false,
+#       "HistoryHistoryID": 194358,
+#       "HistoryEntityTypeID": 1,
+#       "HistoryEntityKeyID": 4096,
+#       "HistoryHistoryTypeID": 1,
+#       "HistoryType": "Note",
+#       "HistoryHistoryCategoryID": 5,
+#       "HistoryCategoriesName": "Collections",
+#       "HistoryHistoryDate": "2024-04-03T12:02:00",
+#       "HistoryCreateUserID": 116,
+#       "UsersUsername": "CjZwick",
+#       "HistoryNoteText": "Test ",
+#       "EntitiesEntityID": 48,
+#       "EntitiesName": "117 Grattan Street",
+#       "AdditionalColumns": {}
+#     }
+#   ],
+#   "Grid1ReportName": "HistNotes",
+#   "Grid1Description": "History / Notes",
+#   "Grid2": [],
+#   "Grid2ReportName": "HistNotes",
+#   "Grid2Description": "History / Notes",
+#   "Grid3": [],
+#   "Grid3ReportName": "HistNotes",
+#   "Grid3Description": "History / Notes",
+#   "Grid4": [],
+#   "Grid4ReportName": "HistNotes",
+#   "Grid4Description": "History / Notes",
+#   "Grid6": [],
+#   "Grid6ReportName": "HistNotes",
+#   "Grid6Description": "History / Notes",
+#   "Grid7": [],
+#   "Grid7ReportName": "HistNotes",
+#   "Grid7Description": "History / Notes",
+#   "Grid9": [],
+#   "Grid9ReportName": "HistNotes",
+#   "Grid9Description": "History / Notes",
+#   "Grid10": [],
+#   "Grid10ReportName": "HistNotes",
+#   "Grid10Description": "History / Notes",
+#   "Grid11": [],
+#   "Grid11ReportName": "HistNotes",
+#   "Grid11Description": "History / Notes"
+# }

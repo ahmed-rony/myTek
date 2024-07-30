@@ -1,0 +1,202 @@
+
+#board1-sec2-header {
+  background-color: var(--colorB);
+  padding: 10px;
+  /* width: 100%;k */
+  border-radius: 7px;
+  color: rgba(220,220,220,1);
+  text-align: center;
+  margin-bottom: 1em;
+}
+#board1-sec2-header-t1 {
+  font-family: 'bold';
+  font-size: 27px;
+}
+#board1-sec2-header-t2 {
+  font-family: 'regular';
+}
+#board1-sec2-level1-body {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  /* flex-wrap: ; */
+}
+.board1-sec2-level1card {
+  background-color: var(--colorB);
+  padding: 10px;
+  width: 100%;
+  border-radius: 7px;
+  transition: 0.2s;
+}
+.b1-s2-l1c-charged {
+  background-color: var(--colorD);
+  /* background-color: grey; */
+}
+.board1-sec2-level1card:hover {
+  opacity: 0.8;
+}
+.board1-sec2-level1card-title {
+  font-size: 21px;
+  font-family: 'regular';
+  color: rgba(230,230,230,1);
+  text-align: center;
+}
+.board1-sec2-level1card-text {
+  font-size: 15px;
+  font-family: 'regular';
+  color: rgba(220,220,220,1);
+  text-align: center;
+}
+.board1-sec2-level1card-value {
+  font-size: 21px;
+  font-family: 'regular';
+  text-align: center;
+}
+.board1-sec2-level1card-btn {
+  padding: 10px;
+  border:none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  font-family: 'regular';
+  font-size: 16px;
+  background-color:var(--colorC);
+  display: block;
+  margin:auto;
+  margin-top: 1em;
+  width: 100px;
+  text-align: center;
+  transition: 0.1s;
+}
+.board1-sec2-level1card-btn:hover {
+  background-color: var(--colorB);
+  color: white;
+  font-family: 'bold';
+}
+
+
+.board1-sec2-level2-children {
+  font-family: 'bold';
+  color: rgba(0,0,0,0.7);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+#board1-sec2-level2-progress-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+#board1-sec2-level2-progress-progress-body {
+  background-color: var(--colorA);
+  width: 100%;
+  border-radius: 4px;
+  padding: 3px;
+}
+#board1-sec2-level2-progress-progress-inner {
+  background-color: var(--colorB);
+  padding: 6px 0px;
+  border-radius: 4px;
+}
+
+.perc_1{
+  padding: 30px;
+  border: 2px solid var(--colorB);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+#board1-sec2-level13-body {
+  margin-top: 1em;
+  margin-bottom: 3em;
+  padding: 10px;
+  background-color: var(--colorB);
+  border-radius: 7px;
+
+}
+.board1-sec2-level3-header-child-cont {
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border-radius: 7px;
+}
+#board1-sec2-level3-header-child1-top {
+  font-size: 25px;
+  font-family: 'bold';
+  line-height: 2;
+  text-align: center;
+  color: white;
+}
+#board1-sec2-level3-header-child2-top {
+  font-size: 20px;
+  font-family: 'regular';
+}
+#board1-sec2-level3-header-child1-bottom {
+  font-size: 25px;
+  font-family: 'bold';
+}
+
+
+
+#board1-sec2-level13-body-body {
+ width: 94%;
+ margin: auto;
+ margin-top: 1em;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+.board1-sec2-level13-body-children-body {
+  width: 100%;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+  font-family: 'regular';
+  font-weight: 400;
+}
+.board1-sec2-level13-body-children-btn {
+  padding: 10px;
+  background-color: var(--colorD);
+  font-family: 'bold';
+  color: rgba(220,220,220,1);
+  border:none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.2s;
+  margin-top: 1em;
+}
+.board1-sec2-level13-body-children-btn:hover {
+  background-color: var(--colorC);
+  color: rgba(0,0,0,0.9);
+}
+.board1-sec2-level13-body-children-text1 {
+  font-size: 20px;
+  font-family: 'bold';
+  margin-bottom: 0.5em;
+}
+.board1-sec2-level13-body-children-text2 {
+  font-size: 17px;
+  font-family: 'bold';
+  margin-bottom: 0.6em;
+}
+
+
+@media (min-width: 760px) {
+#board1-sec2-level1-body {
+  flex-direction: row;
+}
+#board1-sec2-level13-body-body {
+ flex-direction: row;
+}
+
+}
+

@@ -1,0 +1,125 @@
+
+
+#board-2-component {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 90%;
+ margin: auto;
+ margin-top: 7em;
+ gap: 1em;
+ margin-bottom: 3em;
+}
+
+#board2-header-container { 
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+ background-color: var(--colorB);
+ color: white;
+ padding: 0.7em 1em;
+}
+
+#board2-header-bushburg {
+ font-family: 'bold';
+ font-size: 25px;
+ text-align: center;
+}
+
+#board2-header-heading-cont {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+#board2-header-heading {
+ font-family: 'bold';
+ font-size: 30px;
+ text-align: center;
+}
+#board2-header-updated {
+ font-family: 'regular';
+ font-size: 15px;
+ text-align: center;
+}
+
+
+#board2-header-btn-cont {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ border: 2px solid var(--colorD);
+ border-radius: 4px;
+ padding:0 0.5em;
+}
+#board2-header-btn-cont-property {
+ background-color: transparent;
+ border: none;
+ outline: none;
+ font-size: 19px;
+ color: white;
+ text-align: center;
+ font-family: 'bold';
+ padding:5px;
+ padding-right: 0.5em;
+}
+#board2-header-btn-cont-property-drpdwn {
+ border: none;
+ outline: none;
+ background-color: transparent;
+ border-left: 2px solid var(--colorD);
+ text-align: center;
+ color: var(--colorD);
+ padding:5px;
+ padding-left: 0.7em;
+}
+
+
+
+.board2-levels-container {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ gap: 1em;
+}
+.board2-levels-container-big-box {
+ border: 1px solid var(--colorD);
+ padding: 10px;
+ border-radius: 1px;
+ width: 100%;
+ background-color: var(--colorC);
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 760px) {
+#board2-header-bushburg, #board2-header-heading-cont, #board2-header-btn-cont {
+ margin: auto;
+}
+}
+@media (min-width: 760px) {
+#board-1-component {
+ width: 94%;
+}
+.board2-levels-container {
+ flex-direction: row;
+}
+}
+@media (min-width: 1380px) {
+#board-2-component {
+ width: 89%;
+}
+}

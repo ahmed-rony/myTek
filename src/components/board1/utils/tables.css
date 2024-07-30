@@ -1,0 +1,109 @@
+
+
+#show-table-boards-11 {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  overflow: auto;
+}
+#show-table-boards-11-header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#show-table-boards-11-header button {
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin-right: 1em;
+  margin-top: 1em;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  background-color: var(--colorD);
+  font-family: 'bold';
+}
+#show-table-boards-11-header button:hover {
+  background-color: var(--colorB);
+}
+
+#table-boards-11-tablecontainer-before {
+  width: 60%;
+  height: 75vh;
+  position: fixed;
+  overflow: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+}
+#table-boards-11-tablecontainer-before-long {
+  width: 60%;
+  height: 90vh;
+  position: fixed;
+  overflow: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+}
+#table-boards-11-tablecontainer {
+  width: 100%;
+  background-color: var(--colorA);
+  border-radius: 2px;
+  animation-name: show-table-11boards;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+  border-collapse: collapse;
+  margin-top: 1em;
+  border-radius: 12px;
+}
+@keyframes show-table-11boards{
+  from {transform: scale(0)} 
+  to {transform: scale(1)} 
+}
+
+#table-boards-11-tablecontainer th,
+#table-boards-11-tablecontainer td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  font-family: 'regular';
+}
+
+#table-boards-11-tablecontainer th {
+  background-color: #f2f2f2;
+  font-family: 'bold';
+}
+#table-boards-11-tablecontainer tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+#table-boards-11-tablecontainer tbody tr:hover {
+  background-color: #e6f7ff;
+}
+
+
+@media (max-width: 760px) {
+#table-boards-11-tablecontainer-before {
+  width: 93%;
+  height: 90vh;
+}
+}
+@media (min-width: 760px) {
+#table-boards-11-tablecontainer-before-long {
+  width: 93%;
+  height: 90vh;
+}
+}

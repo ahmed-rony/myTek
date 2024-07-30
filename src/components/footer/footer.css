@@ -1,0 +1,22 @@
+
+#app-footer {
+ position: relative;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ padding: 0.9em 0em;
+ text-align: center;
+ border-top: 1px solid rgba(0,0,0,0);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 0.2em;
+ font-size: 12px;
+ font-family: 'regular';
+ color: rgba(0,0,0,0.7);
+}
+
+#app-footer img {
+ width: 40px;
+}

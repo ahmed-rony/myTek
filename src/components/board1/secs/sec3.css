@@ -1,0 +1,195 @@
+
+.board1-sec3-level1-body {
+ background-color: var(--colorB);
+ border-radius: 10px;
+ padding: 10px 0.7em;
+ color: rgb(255, 255, 255);
+ margin-bottom: 1em;
+ width: 100%;
+}
+#board1-sec3-level1-title {
+ font-size: 23px;
+ font-family: 'extrabold';
+ text-align: center;
+}
+#board1-sec3-level1-label {
+ font-family: 'regular';
+ text-align: center;
+ color: rgb(255, 255, 255);
+}
+
+
+#board1-sec3-level1-progress-body {
+ display :flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ gap: 0.5em;
+ margin-top: 0.5em;
+}
+.board1-sec3-level1-progress-cont {
+ width: 100%;
+ border-bottom: 1px solid rgba(200,200,200,0.2);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.board1-sec3-level1-progress-label {
+ font-family: 'bold';
+ font-size: 13px;
+ /* text-align: center; */
+}
+.board1-sec3-level1-progress-progress-track {
+  background-color: var(--colorA);
+  width: 59%;
+  border-radius: 4px;
+  padding: 1px;
+  margin: 0.3em 0em;
+  height: 70px;
+  position: relative;
+}
+.board1-sec3-level1-progress-progress-inner  {
+  position: absolute;
+  background-color: var(--colorD);
+  padding: 6px 0px;
+  border-radius: 4px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#board1-sec3-level1-table-body {
+  margin-top: 1em;
+  overflow-y: auto;
+}
+#board1-sec3-level1-table-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  overflow: scroll;
+}
+.board1-sec3-level1-table-thtd {
+  border: 1px solid #ddd;
+  padding: 7px;
+  text-align: left;
+  font-size: 13px;
+  font-family: 'regular';
+}
+
+
+
+
+#board1-sec3-level2-body {
+ display :flex;
+ flex-direction: column;
+ align-items: flex-start;
+ justify-content: center;
+ gap: 0.5em;
+}
+.board1-sec3-level2-children {
+ display :flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ width: 100%;
+}
+.board1-sec3-level2-children-title {
+ font-family: 'regular';
+ font-size: 18px;
+}
+.board1-sec3-level2-children-val {
+ font-size: 15px;
+ font-family: 'bold';
+}
+
+
+
+#board1-sec3-level3-body {
+ background-color: var(--colorA);
+ border: 2px solid var(--colorB);
+ border-radius: 10px;
+ padding: 10px 0.7em;
+ color: rgba(0,40,40,1);
+ margin-bottom: 2em;
+ width: 100%;
+}
+#board1-sec3-level3-title {
+ font-size: 24px;
+ font-family: 'bold';
+ text-align: center;
+ margin-bottom: 0.6em;
+}
+#board1-sec3-level3-sec2-body {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: flex-start;
+ gap: 1em;
+}
+#board1-sec3-level3-sec2-2 {
+ font-family: 'bold';
+ font-size: 15px;
+}
+#board1-sec3-level3-sec2-2-boldtxt1 {
+ font-size: 23px;
+ font-family: 'extrabold';
+ margin: 0.4em 0em;
+}
+#board1-sec3-level3-sec2-2-boldtxt2 {
+ font-size: 19px;
+ font-family: 'extrabold';
+ margin: 0.2em 0em;
+}
+#board1-sec3-level3-sec2-2-showmebtn {
+ padding: 10px;
+ border:none;
+ outline:none;
+ background-color: var(--colorC);
+ border-radius: 7px;
+ cursor: pointer;
+ font-family: 'bold';
+ margin-bottom: 0.6em;
+ transition: 0.2s;
+}
+#board1-sec3-level3-sec2-2-showmebtn:hover {
+ background-color: var(--colorD);
+ color: white;
+}
+
+#board1-sec3-level3-bar-title {
+ font-family: 'bold';
+ font-family: 20px;
+}
+.board1-sec3-level3-bar-progress-track {
+  background-color: var(--colorB);
+  height: 150px;
+  width: 200px;
+  border-radius: 4px;
+  padding: 1px;
+  margin: 0.3em 0em;
+}
+.board1-sec3-level3-bar-progress-inner  {
+  background-color: var(--colorD);
+  padding: 6px 0px;
+  border-radius: 4px;
+  height: 148px;
+}
+.board1-sec3-level3-bar-progress-label {
+  padding: 2px;
+  width: 2em;
+  display: inline-block;
+  height: 12px;
+  margin-right: 1em;
+}
+
+
+
+
+@media (min-width: 760px) {
+.board1-sec3-level2-children-val {
+ font-size: 20px;
+}     
+#board1-sec3-level3-sec2-body {
+ flex-direction: row;
+}
+}
